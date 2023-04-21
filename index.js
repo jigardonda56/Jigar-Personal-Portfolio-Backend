@@ -20,5 +20,5 @@ app.use('/api/auth', require('./routes/auth'))
 app.use('/api/details', require('./routes/details'))
 
 app.listen(port, () => {
-  console.log(`jigar portfolio backend listening at http://localhost:${port}`)
+  console.log(`jigar portfolio backend listening at http://jigar-donda.onrender.com:${port}`)
 })
